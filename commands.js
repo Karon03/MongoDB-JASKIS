@@ -102,8 +102,8 @@ db.bounties.find({
 // Update and Delete
 // 1. Update the reward for Polarwind to 10000
 db.bounties.updateOne(
-    { name: "Polarwind" }, // Filter to find the document for Polarwind
-    { $set: { reward: 10000 } } // Update the reward field to $10000
+    { name: "Polarwind" }, 
+    { $set: { reward: 10000 } } 
 )
 
 // 2. Remove Lokinkajou
